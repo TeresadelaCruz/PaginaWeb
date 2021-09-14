@@ -1,0 +1,281 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+        /*header*/
+        
+        header {
+            background-color: #e02d36;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            padding-left: 10%;
+            padding-right: 10%;
+            position: relative;
+            position: fixed;
+            z-index: 100;
+        }
+        
+        .img-logo {
+            background-image: url("https://www.ldavinci.edu.pe/wp-content/themes/davinci/images/logo-white.png");
+            width: 150px;
+            height: 70px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: flex;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        
+        .nav {
+            display: flex;
+            justify-content: flex-end;
+            font-size: 18px;
+            font-family: 'Barlow', sans-serif;
+            padding: 20px;
+            background-color: #e02d36;
+            width: 100%;
+        }
+        
+        .nav a {
+            display: inline-block;
+            margin-right: 5%;
+            text-decoration: none;
+            color: #ffff;
+            font-weight: normal;
+        }
+        
+        .nav a:hover {
+            color: #2a2c31;
+        }
+        /*main*/
+        
+        .img-main {
+            background-image: url("https://www.ldavinci.edu.pe/wp-content/uploads/2020/10/juego-Kinder-1.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .page-img-tittle {
+            position: absolute;
+            bottom: 170px;
+            left: 0;
+            right: 0;
+            font-size: 25px;
+            line-height: 1.11111;
+            color: #fff;
+            font-weight: 600;
+            align-items: center;
+        }
+        
+        .initial-container {
+            display: flex;
+            width: 100%;
+            height: 650px;
+            flex-wrap: wrap;
+            padding: 1%;
+            justify-content: center;
+            background-color: #142f4a;
+        }
+        
+        .initial {
+            background-color: #F0FCFB;
+            margin: 50px;
+            width: 70%;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            text-align: center;
+            border-radius: 10px;
+            position: relative;
+            bottom: 100px;
+        }
+        
+        .h2-tittle-initial {
+            color: #e55159;
+            font-size: 30px;
+            padding-top: 70px;
+        }
+        
+        .initial p {
+            padding: 15%;
+            font-size: 1.8rem;
+            padding-top: 0;
+            line-height: 15mm;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 400;
+            justify-content: center;
+        }
+        
+        .initial-container2 {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 2%;
+        }
+        
+        .initial-content {
+            display: flex;
+            width: 100%;
+            height: 650px;
+        }
+        
+        #initial-img {
+            background-image: url("https://www.ldavinci.edu.pe/wp-content/uploads/2019/10/inicial1.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 60%;
+            height: 600px;
+        }
+        
+        .card-text {
+            color: #142f4a;
+            font-size: 1.125em;
+            line-height: 1.44444em;
+            padding: 2.9em 4em;
+            text-align: left;
+            font-family: Museo Sans, sans-serif;
+        }
+        
+        .wysiwyg>:first-child {
+            margin-top: 0;
+        }
+        
+        .wysiwyg>* {
+            margin-top: 1.5em;
+        }
+        
+        .primary-container {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 2%;
+            background-color: #142f4a;
+        }
+        
+        .primary-content {
+            display: flex;
+            width: 100%;
+            height: 650px;
+        }
+        
+        #primary-img {
+            background-image: url("https://www.ldavinci.edu.pe/wp-content/uploads/2017/09/primaria.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 80%;
+            height: 600px;
+        }
+        
+        .card-text-primary {
+            color: white;
+            font-size: 1.125em;
+            line-height: 1.44444em;
+            padding: 2.9em 4em;
+            text-align: left;
+            font-family: Museo Sans, sans-serif;
+        }
+        
+        .card-text-primary h2 {
+            text-align: center;
+        }
+        
+        .card-text-primary p {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            padding-top: 5%;
+            font-size: 18px;
+            letter-spacing: 0.5mm;
+        }
+        
+        .secondary-container {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 2%;
+            background-color: white;
+        }
+        
+        .secondary-content {
+            display: flex;
+            width: 100%;
+            height: 650px;
+        }
+        
+        #secondary-img {
+            background-image: url("https://www.ldavinci.edu.pe/wp-content/uploads/2017/09/calendarizacion.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 85%;
+            height: 600px;
+        }
+        
+        .card-text-secondary {
+            color: #142f4a;
+            font-size: 1.125em;
+            line-height: 1.44444em;
+            padding: 2.9em 4em;
+            text-align: left;
+            font-family: Museo Sans, sans-serif;
+        }
+        
+        .card-text-secondary h2 {
+            text-align: center;
+        }
+        
+        .card-text-secondary p {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            padding-top: 5%;
+            font-size: 18px;
+            letter-spacing: 0.5mm;
+        }
+        /*footer*/
+        
+        footer {
+            width: 100%;
+            height: auto;
+            background-color: #2a2c31;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .img-footer {
+            padding: 5%;
+            height: 16rem;
+        }
+        
+        ul {
+            margin: 2%;
+            line-height: 9mm;
+        }
+        
+        ul li {
+            list-style: none;
+        }
+        
+        ul li a {
+            text-decoration: none;
+            color: #6d6e70;
+            font-size: 0.8rem;
+        }
+        
+        ul a:hover {
+            color: #ffff;
+        }

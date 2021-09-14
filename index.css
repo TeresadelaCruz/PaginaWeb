@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: black;
+}
+/*header*/
+header{
+    background-color:#ffdf00;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 0%;
+    position:relative;
+    position: fixed;
+    z-index: 100;
+
+}
+.img-logo{   
+    background-image: url("IMÁGENES/insignia.png");
+    width: 200px;
+    height: 100px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+    
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+    font-family: 'Barlow', sans-serif;
+    padding: 40px;
+    background-color: #ffdf00;
+    width: 100%;
+}
+.nav a{
+    display: inline-block;
+   margin-right: 5% ; 
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   font-weight: normal;
+}
+.nav a:hover{
+    color: #ffff;
+}
+/*main*/
+main{
+    padding-top: 80px;
+}
+.img-main{ 
+    background-image: url("IMÁGENES/Escuela.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 50%;
+}
+
+h1{
+    color: #ffff;
+    position:absolute ;
+    align-content: center;
+    top: 40%;
+    font-size: 5.5rem;
+    text-align: center;
+
+
+}
+.card-container{
+    display: flex;
+    width: 100%;
+    height: 650px;
+    flex-wrap: wrap;
+    padding: 1%;
+    justify-content: center;
+    background-color:#ffdf00;
+}
+.card{
+    background-color: #F0FCFB ;
+    margin: 50px;
+    width: 70%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    bottom: 100px;
+}
+
+.card-container2{
+        display: flex;
+        width: 100%;
+        height: 650px;
+        flex-wrap: wrap;
+        padding: 1%;
+        justify-content: center;
+        background-color:#ffdf00;
+}
+.card2{
+        background-color: #F0FCFB ;
+        margin: 50px;
+        width: 70%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        border-radius: 10px;
+        position: relative;
+        bottom: 100px;
+}
+h3{
+        color: #e55159;
+        font-size: 50px;
+        padding-top: 30px;
+}
+.card p{
+        padding: 10%;
+        font-size: 1.2rem;
+        padding-top: 0;
+        line-height: 15mm;
+
+}
+.level{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ffff;
+    padding-top: 30px;
+}
+#img-lev1{
+    background-image: url("IMÁGENES/Motivacion.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 480px;
+}
+.parrafo{
+    width: 40%;
+    height: 500px;
+    padding: 5%;
+    font-size: 2rem;
+    text-align: left;
+    color: black;
+}
+#img-lev2{
+    background-image: url("IMÁGENES/Video.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 85%;
+    height: 600px;
+
+}
+.level1{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ffff;
+    padding-top: 10px;
+    padding-block-end: 40px;
+}
+/*footer*/
+footer{
+    width: 100%;
+    height: auto;
+    background-color:#2a2c31;
+    display: flex;
+    justify-content: center;
+}
+.img-footer{
+    padding: 1%;
+    height: 15rem;
+}
+ul{
+    margin: 5%;
+    line-height: 9mm;
+}
+ul li{
+    list-style: none;   
+}
+ul li a {
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 0.8rem;
+}
+ul li {
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 0.8rem;
+}
+ul a:hover{
+    color:rgb(255, 0, 0);
+}
+
+
+
